@@ -17,7 +17,7 @@ const arrangement = (list) => {
       }
     }
   }
-  innerloop.innerHTML = list;
+  innerloop.innerHTML = `the sorted array is ${list}`;
 };
 
 // This is our unsorted array
